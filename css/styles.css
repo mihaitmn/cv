@@ -1,0 +1,87 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h3{
+    text-align: left;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+/* Title Section */
+
+#title{
+    background-color: #3DB2FF;
+    color: #fff;
+    text-align: left;
+}
+.navbar-brand{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.nav-item, .dropdown-item{
+    font-weight: 700;
+    font-size:1rem;
+    padding: 0 15px;
+}
+
+
+
+
+/* Details Section */
+
+#details{
+    position: relative;
+}
+
+.detail-box{
+    padding: 4.5%;
+}
+
+.detail-title{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.icon {
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+.icon:hover{
+    color: #3DB2FF;
+}
+
+/* Education Section */
+
+#education{
+    background-color: #3DB2FF;
+    color: #fff;
+    padding: 2%;
+}
+
+.education-text {
+    font-size: 2rem;
+    line-height: 1.5;
+    padding: 1%;
+  }
+
+  .education-image{
+      text-align: center;
+  }
