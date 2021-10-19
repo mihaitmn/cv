@@ -92,3 +92,12 @@ h3{
     padding: 1%;
   }
 
+/* Contact Section */
+
+#contact .container-fluid{
+    padding-top: 0;
+}
+
+.contact-text{
+    padding-top: 3%;
+}
