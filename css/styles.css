@@ -24,7 +24,7 @@ h3{
 
 /* Title Section */
 
-#title{
+#title, #title-python{
     background-color: #3DB2FF;
     color: #fff;
     text-align: left;
@@ -41,8 +41,13 @@ h3{
     padding: 0 15px;
 }
 
+.text-title{
+    padding-top: 10%;
+}
 
-
+.profile{
+    padding-left: 10%;
+}
 
 /* Details Section */
 
@@ -73,7 +78,7 @@ h3{
 #education{
     background-color: #3DB2FF;
     color: #fff;
-    padding: 2%;
+    padding: 10% 2%;
 }
 
 .education-text {
@@ -82,6 +87,3 @@ h3{
     padding: 1%;
   }
 
-  .education-image{
-      text-align: center;
-  }
