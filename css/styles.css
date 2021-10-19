@@ -8,7 +8,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
     font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
@@ -24,7 +23,7 @@ h3{
 
 /* Title Section */
 
-#title, #title-python{
+#title{
     background-color: #3DB2FF;
     color: #fff;
     text-align: left;
