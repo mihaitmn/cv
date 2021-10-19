@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico">
 
    <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/55a5d301c2.js" crossorigin="anonymous"></script>
@@ -15,10 +16,10 @@
 <body>
   <!-- Navbar section -->
 
-  <section class="colored-section" id="title">
+  <section id="title">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">tmn</a>
+        <a class="navbar-brand" href="#title">tmn</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -51,12 +52,12 @@
     <!-- Title Section -->
     <div class="container-fluid main">
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-6 text-title">
         <h1>Young programmer.</h1>
         <h1>Future prodigy.</h1>
       </div>
-      <div class="col-lg-6">
-        <img src="images/me.png" alt="myimg">
+      <div class="col-lg-6 profile">
+        <img src="images/profile.png" alt="myimg">
       </div>
     </div>
   </div>
@@ -67,17 +68,22 @@
   <section id="details">
     <div class="container-fluid">
       <div class="row">
-        <div class="detail-box col-lg-4"> 
+        <div class="detail-box col-lg-3 col-md-6 col-sm-6"> 
+          <a href="https://www.youtube.com/watch?v=onEkHHWzxW0"><i class="icon fas fa-laptop-code fa-4x"></i></a>
+          <h3 class="detail-title">Tech</h3>
+          <p>Reading tech blogs since I was 12.</p>
+        </div>
+        <div class="detail-box col-lg-3 col-md-6 col-sm-6"> 
           <a href="https://www.youtube.com/watch?v=onEkHHWzxW0"><i class="icon fas fa-table-tennis fa-4x"></i></a>
           <h3 class="detail-title">Sports</h3>
           <p>In love with idea of winning.</p>
         </div>
-        <div class="detail-box col-lg-4">
+        <div class="detail-box col-lg-3 col-md-6 col-sm-6">
           <a href="https://www.youtube.com/watch?v=zUz9OBIuFrs"><i class="icon fas fa-headphones-alt fa-4x"></i></a>
           <h3 class="detail-title">Music</h3>
-          <p>Balkan music all the way.</p>
+          <p>Best way to relax.</p>
         </div>
-        <div class="detail-box col-lg-4">
+        <div class="detail-box col-lg-3 col-md-6 col-sm-6">
           <a href="https://www.youtube.com/watch?v=ylMkOmAbi8I"><i class="icon fas fa-cat fa-4x"></i></a>
           <h3 class="detail-title">Pets</h3>
           <p>The only ones whose intentions are pure.</p>
@@ -91,12 +97,10 @@
       <div id="education-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h2 class="education-text">Computer Science, "Ovidius" University</h2>
-            <img src="images/uoc.jpg" class="w-50 education-image" alt="uoc">
+            <h2 class="education-text">Graduated Computer Science, "Ovidius" University</h2>
           </div>
           <div class="carousel-item">
-            <h2 class="education-text">Machine Learning, ProInfo</h2>
-            <img src="images/proinfo.png" class="w-50 education-image" alt="proinfo">
+            <h2 class="education-text">Started learning to code for creating game modifications</h2>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#education-carousel" data-bs-slide="prev">
