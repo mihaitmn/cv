@@ -30,22 +30,22 @@ h3{
 }
 .navbar-brand{
     font-family: "Ubuntu", sans-serif;
-    font-weight: 900;
     font-size: 2rem;
+    font-weight: 900;
 }
 
 .nav-item, .dropdown-item{
-    font-weight: 700;
     font-size:1rem;
+    font-weight: 700;
     padding: 0 15px;
-}
-
-.text-title{
-    padding-top: 10%;
 }
 
 .profile{
     padding-left: 10%;
+}
+
+.text-title{
+    padding-top: 10%;
 }
 
 /* Details Section */
@@ -79,6 +79,12 @@ h3{
     color: #fff;
     padding: 10% 2%;
 }
+
+.education-link{
+    color: #fff;
+    text-decoration: none;
+}
+
 
 .education-text {
     font-size: 2rem;
