@@ -1,1 +1,1 @@
-# CV / portfolio - still working, V1
+# CV / portfolio - still working
